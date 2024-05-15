@@ -19,12 +19,11 @@ a:hover {
 
 
 .background {
-    background-image: url("netflix2.jpg");
+    background-image: url("netflix3.jpg");
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    filter: brightness(80%);
     border-bottom: 10px solid grey;
     width: 100%;
     height: 730px;
@@ -348,11 +347,13 @@ img {
 
 /*end of carrousel*/
 
-.vid{
-
-}
+.vid {}
 
 @media screen and (max-width:600px) {
+    body {
+        overflow-x: hidden;
+    }
+
     .flexbox {
         width: auto;
         height: auto;
@@ -362,16 +363,20 @@ img {
         height: 800px;
         width: 480px;
     }
-    .heading{
+
+    .heading {
         margin-bottom: 30px;
     }
-   .cardul{
-    font-size: 30px;
-    margin-top: 30px;
-   }
+
+    .cardul {
+        font-size: 30px;
+        margin-top: 30px;
+
+    }
+
     .playcard {
         flex-direction: column;
-        
+
     }
 
     .insideplay {
@@ -382,15 +387,17 @@ img {
         font-size: 10px;
     }
 
-    .faq-accordian .card .card-header{
+    .faq-accordian .card .card-header {
         width: 400px;
     }
-img{
-    max-width: 300px;
-    max-height: 500px;
-}
-video{
-    max-width: 300px;
-}
+
+    img {
+        max-width: 300px;
+        max-height: 500px;
+    }
+
+    video {
+        max-width: 300px;
+    }
 
 }
